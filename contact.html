@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-en="Contact LaGassa" data-ar="اتصل بنا | لاقصه">Contact LaGassa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">LA GASSA</a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a></li>
+      <li><a href="services.html" data-en="Services" data-ar="الخدمات">Services</a></li>
+      <li><a href="about.html" data-en="About" data-ar="من نحن">About</a></li>
+      <li><a href="gallery.html" data-en="Gallery" data-ar="المعرض">Gallery</a></li>
+      <li><a href="reservation.html" data-en="Reservations" data-ar="الحجز">Reservations</a></li>
+      <li><a href="contact.html" class="active" data-en="Contact" data-ar="اتصل بنا">Contact</a></li>
+      <li><a href="reservation.html" class="nav-cta" data-en="Book Now" data-ar="احجز الآن">Book Now</a></li>
+    </ul>
+    <div style="display:flex; align-items:center; gap:1rem;">
+      <button id="langToggle" class="lang-switch">English <span>|</span> العربية</button>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=1600&q=80'); background-size:cover; background-position:center; height:50vh; min-height:350px; position:relative; display:flex; align-items:center; justify-content:center;">
+    <div style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(15,21,32,0.7); z-index:1;"></div>
+    <div class="page-hero-content reveal" style="z-index:2; text-align:center;">
+      <h1 data-en="Get in Touch" data-ar="تواصل معنا">Get in Touch</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid reveal">
+        <div class="contact-info">
+          <h3 data-en="LaGassa Salon & Spa" data-ar="صالون وسبا لاقصه">LaGassa Salon & Spa</h3>
+          <p><span>&#128205;</span> 8 Mall, 5th Floor, Salem Al Mubarak St, Salmiya, Kuwait</p>
+          <p><span>&#128222;</span> <a href="tel:+96569300320">+965 6930 0320</a></p>
+          <p><span>&#128172;</span> <a href="https://wa.me/96569300320" target="_blank" style="color:var(--accent);" data-en="WhatsApp Now" data-ar="واتساب الآن">WhatsApp Now</a></p>
+          <p><span>&#9993;</span> <a href="mailto:info@lagassa.com">info@lagassa.com</a></p>
+          <p><span>&#128339;</span> Sat–Thu: 10:00 – 22:00</p>
+          <div style="margin-top:1.5rem;">
+            <a href="tel:+96569300320" class="btn btn-primary" style="margin-right:0.5rem;" data-en="Call Now" data-ar="اتصل الآن">Call Now</a>
+            <a href="https://wa.me/96569300320" target="_blank" class="btn btn-outline" data-en="Chat on WhatsApp" data-ar="واتساب">Chat on WhatsApp</a>
+          </div>
+        </div>
+        <div class="map-embed">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.8145280882!2d48.0749!3d29.3383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjnCsDIwJzE4LjAiTiA0OMKwMDQnMjkuNiJF!5e0!3m2!1sen!2skw!4v1700000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col"><h4>LA GASSA</h4><p>8 Mall, 5th Floor, Salmiya</p></div>
+      <div class="footer-col"><h4 data-en="Contact" data-ar="اتصل">Contact</h4><p><a href="tel:+96569300320">+965 6930 0320</a></p></div>
+    </div>
+    <div class="footer-bottom"><p data-en="&copy; 2025 LaGassa." data-ar="© 2025 لاقصه."></p></div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
