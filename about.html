@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-en="About LaGassa | Our Story" data-ar="من نحن | قصتنا">About LaGassa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="logo">LA GASSA</a>
+    <ul class="nav-links">
+      <li><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a></li>
+      <li><a href="services.html" data-en="Services" data-ar="الخدمات">Services</a></li>
+      <li><a href="about.html" class="active" data-en="About" data-ar="من نحن">About</a></li>
+      <li><a href="gallery.html" data-en="Gallery" data-ar="المعرض">Gallery</a></li>
+      <li><a href="reservation.html" data-en="Reservations" data-ar="الحجز">Reservations</a></li>
+      <li><a href="contact.html" data-en="Contact" data-ar="اتصل بنا">Contact</a></li>
+      <li><a href="reservation.html" class="nav-cta" data-en="Book Now" data-ar="احجز الآن">Book Now</a></li>
+    </ul>
+    <div style="display:flex; align-items:center; gap:1rem;">
+      <button id="langToggle" class="lang-switch">English <span>|</span> العربية</button>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="page-hero" style="background-image: url('https://images.unsplash.com/photo-1517832606299-7ae9b72cb234?w=1600&q=80'); background-size:cover; background-position:center; height:50vh; min-height:350px; position:relative; display:flex; align-items:center; justify-content:center; text-align:center;">
+    <div style="position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(15,21,32,0.7); z-index:1;"></div>
+    <div class="page-hero-content reveal" style="z-index:2;">
+      <h1 data-en="The LaGassa Legacy" data-ar="إرث لاقصه">The LaGassa Legacy</h1>
+      <p class="breadcrumb"><a href="index.html" data-en="Home" data-ar="الرئيسية">Home</a> &gt; <span data-en="About" data-ar="من نحن">About</span></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="about-grid reveal" style="grid-template-columns:1fr 1fr; gap:3rem; align-items:center;">
+        <div class="about-text">
+          <span class="section-label" data-en="Where Grooming Becomes Art" data-ar="حيث يصبح التجميل فنًا">Where Grooming Becomes Art</span>
+          <h2 data-en="A Sanctuary for the Modern Gentleman" data-ar="ملاذ الرجل العصري">A Sanctuary for the Modern Gentleman</h2>
+          <p data-en="LaGassa was born from a single belief: that a man's grooming experience should be as refined as his lifestyle. Our journey began in the heart of Salmiya, Kuwait, where we combined traditional barbering techniques with a modern, luxury approach. Every chair in our salon tells a story of craftsmanship — from the aged leather that cradles you to the soft amber lighting that sets the mood." data-ar="ولدت لاقصه من إيمان واحد: أن تجربة العناية بالرجل يجب أن تكون راقية مثل أسلوب حياته. بدأت رحلتنا في قلب السالمية، الكويت، حيث جمعنا بين تقنيات الحلاقة التقليدية والنهج العصري الفاخر. كل كرسي في صالوننا يروي قصة حرفية – من الجلد العتيق الذي يحتضنك إلى الإضاءة العنبرية الناعمة التي تضبط المزاج."></p>
+          <p data-en="We use only the finest products — imported straight‑razors from Solingen, organic beard oils from the Levant, and bespoke pomades crafted in small batches. Our barbers are not just stylists; they are architects of image, trained to understand facial structure, hair texture, and the silent confidence that comes from looking your absolute best." data-ar="نستخدم فقط أرقى المنتجات – أمواس حلاقة مستوردة من زولينغن، زيوت لحية عضوية من بلاد الشام، ودهانات شعر فاخرة تصنع على دفعات صغيرة. حلاقونا ليسوا مجرد مصففين، بل معماريو الصورة، مدربون على فهم بنية الوجه، نوعية الشعر، والثقة الصامتة التي تأتي من الظهور بأفضل صورة."></p>
+          <p data-en="Whether you're preparing for a board meeting, a wedding, or simply a moment of self‑care, LaGassa is your retreat. We invite you to disconnect from the noise, enjoy our signature espresso, and let us craft a look that speaks before you do." data-ar="سواء كنت تستعد لاجتماع عمل، زفاف، أو مجرد لحظة عناية شخصية، لاقصه هو ملاذك. ندعوك للانفصال عن الضوضاء، والاستمتاع بالإسبريسو المميز عندنا، ودعنا نصنع إطلالة تتحدث قبلك."></p>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1560060141-7b9010e8a6b9?w=800&q=80" alt="LaGassa interior" style="border-radius:8px; box-shadow:var(--shadow);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Review sample -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="reveal" style="text-align:center; margin-bottom:2rem; color:var(--accent);" data-en="Trusted by Kuwait's Finest" data-ar="موثوق من نخبة الكويت">Trusted by Kuwait's Finest</h2>
+      <div class="review-grid">
+        <div class="review-card reveal"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt=""><div class="review-text"><p>"LaGassa is more than a barber — it's a lifestyle. I've never felt so confident."</p><span class="author">— Nasser A.</span></div></div>
+        <div class="review-card reveal"><img src="https://images.unsplash.com/photo-1534297635766-a262cdcb8ee4?w=100&q=80" alt=""><div class="review-text"><p>"The attention to detail is obsessive — in the best way. My beard has never looked better."</p><span class="author">— Hassan J.</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col"><h4>LA GASSA</h4><p data-en="8 Mall, 5th Floor, Salmiya" data-ar="مول 8، الطابق الخامس، السالمية"></p></div>
+      <div class="footer-col"><h4 data-en="Contact" data-ar="اتصل">Contact</h4><p><a href="tel:+96569300320">+965 6930 0320</a></p></div>
+    </div>
+    <div class="footer-bottom"><p data-en="&copy; 2025 LaGassa." data-ar="© 2025 لاقصه."></p></div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
